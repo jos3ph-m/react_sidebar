@@ -78,6 +78,11 @@ export const SidebarData = [
     ],
   },
   {
+    title: 'Futures',
+    path: '/futures',
+    icon: <AiIcons.AiFillHome />,
+  },
+  {
     title: 'Support',
     path: '/support',
     icon: <IoIcons.IoMdHelpCircle />,
