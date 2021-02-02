@@ -33,7 +33,13 @@ const Sidebar = () => {
           <FaIcons.FaBars />
         </NavIcon>
       </Nav>
-      <SidebarNav></SidebarNav>
+      <SidebarNav>
+        <SidebarWrap>
+          <NavIcon to="#">
+            <AiIcons.AiOutlineClose />
+          </NavIcon>
+        </SidebarWrap>
+      </SidebarNav>
     </>
   );
 };
