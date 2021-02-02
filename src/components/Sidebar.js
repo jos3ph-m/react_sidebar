@@ -14,6 +14,7 @@ const Nav = styled.div`
 
 const NavIcon = styled(Link)`
   margin-left: 2rem;
+  font-size: 2rem;
 `;
 
 const Sidebar = () => {
