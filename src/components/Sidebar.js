@@ -19,10 +19,17 @@ const NavIcon = styled(Link)`
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  color: white;
 `;
 
 const SidebarNav = styled.nav`
   background: #15171c;
+  width: 250px;
+  height: 100vh;
+`;
+
+const SidebarWrap = styled.div`
+  width: 100%;
 `;
 
 const Sidebar = () => {
