@@ -31,7 +31,7 @@ const SidebarNav = styled.nav`
   position: fixed;
   top: 0;
   left: ${({ sidebar }) => (sidebar ? '0' : '-100%')};
-  transition: 350ms;
+  transition: 500ms;
   z-index: 10;
 `;
 
@@ -51,10 +51,10 @@ const Sidebar = () => {
           <FaIcons.FaBars onClick={showSidebar} />
         </NavIcon>
       </Nav>
-      <SidebarNav>
+      <SidebarNav sidebar={sidebar}>
         <SidebarWrap>
           <NavIcon to="#">
-            <AiIcons.AiOutlineClose />
+            <AiIcons.AiOutlineClose onClick={showSidebar} />
           </NavIcon>
         </SidebarWrap>
       </SidebarNav>
