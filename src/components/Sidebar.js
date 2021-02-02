@@ -21,6 +21,10 @@ const NavIcon = styled(Link)`
   align-items: center;
 `;
 
+const SidebarNav = styled.nav`
+  background: #15171c;
+`;
+
 const Sidebar = () => {
   return (
     <>
@@ -29,6 +33,7 @@ const Sidebar = () => {
           <FaIcons.FaBars />
         </NavIcon>
       </Nav>
+      <SidebarNav></SidebarNav>
     </>
   );
 };
