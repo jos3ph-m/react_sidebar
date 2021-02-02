@@ -26,6 +26,7 @@ const SidebarNav = styled.nav`
   background: #15171c;
   width: 250px;
   height: 100vh;
+  display: flex;
 `;
 
 const SidebarWrap = styled.div`
@@ -41,7 +42,7 @@ const Sidebar = () => {
     <>
       <Nav>
         <NavIcon to="#">
-          <FaIcons.FaBars />
+          <FaIcons.FaBars onClick={showSidebar} />
         </NavIcon>
       </Nav>
       <SidebarNav>
