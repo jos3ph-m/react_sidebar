@@ -6,6 +6,9 @@ function App() {
   return (
     <Router>
       <Sidebar />
+      <Switch>
+        <Route path="/overview" exact component={Overview} />
+      </Switch>
     </Router>
   );
 }
