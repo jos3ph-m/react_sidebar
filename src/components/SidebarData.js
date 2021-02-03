@@ -67,12 +67,12 @@ export const SidebarData = [
     subNav: [
       {
         title: 'Message 1',
-        path: '/messages/message1',
+        path: '/messages/messages1',
         icon: <IoIcons.IoIosPaper />,
       },
       {
         title: 'Message 2',
-        path: '/messages/message2',
+        path: '/messages/messages2',
         icon: <IoIcons.IoIosPaper />,
       },
     ],
