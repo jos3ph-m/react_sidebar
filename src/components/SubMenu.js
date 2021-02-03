@@ -10,7 +10,12 @@ const SidebarLink = styled(Link)`
 const SubMenu = () => {
   return (
     <>
-      <SidebarLink to={item.path}></SidebarLink>
+      <SidebarLink to={item.path}>
+        <div>
+          {item.icon}
+          <SidebarLabel>{item.title}</SidebarLabel>
+        </div>
+      </SidebarLink>
     </>
   );
 };
