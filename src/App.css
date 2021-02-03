@@ -10,10 +10,13 @@
 .products,
 .team,
 .reports,
-.messages {
+.messages,
+.futures,
+.support {
   display: flex;
   height: 90vh;
-  align-items: center;
+  align-items: flex-start;
+  padding-top: 6rem;
   justify-content: center;
   font-size: 3rem;
 }

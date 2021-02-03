@@ -6,6 +6,8 @@ import { Reports, ReportsOne, ReportsTwo, ReportsThree } from './pages/Reports';
 import Products from './pages/Products';
 import Team from './pages/Team';
 import { Messages, MessagesOne, MessagesTwo } from './pages/Messages';
+import Futures from './pages/Futures';
+import Support from './pages/Support';
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
         <Route path="/messages" exact component={Messages} />
         <Route path="/messages/messages1" exact component={MessagesOne} />
         <Route path="/messages/messages2" exact component={MessagesTwo} />
+        <Route path="/futures" exact component={Futures} />
+        <Route path="/support" exact component={Support} />
       </Switch>
     </Router>
   );
