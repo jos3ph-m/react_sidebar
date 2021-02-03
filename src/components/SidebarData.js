@@ -33,7 +33,7 @@ export const SidebarData = [
     subNav: [
       {
         title: 'Reports 1',
-        path: '/reports/reports',
+        path: '/reports/reports1',
         icon: <IoIcons.IoIosPaper />,
       },
       {
