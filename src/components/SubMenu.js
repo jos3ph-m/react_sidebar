@@ -44,6 +44,15 @@ const SubMenu = ({ item }) => {
             : null}
         </div>
       </SidebarLink>
+      {subnav &&
+        item.subNav.map((item, index) => {
+          return (
+            <DropdownLink to={item.path} key={index}>
+              {item.icon}
+              <SidebarLabel>{item.title}</SidebarLabel>
+            </DropdownLink>
+          );
+        })}
     </>
   );
 };
