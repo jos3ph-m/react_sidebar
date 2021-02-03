@@ -7,7 +7,9 @@ const SidebarLink = styled(Link)`
   color: #e1e9fc;
 `;
 
-const SubMenu = () => {
+const SidebarLabel = styled.span``;
+
+const SubMenu = ({ item }) => {
   return (
     <>
       <SidebarLink to={item.path}>
