@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Overview from './pages/Overview';
 import { Reports, ReportsOne, ReportsTwo, ReportsThree } from './pages/Reports';
 import Products from './pages/Products';
+import Team from './pages/Team';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/reports/reports2" exact component={ReportsTwo} />
         <Route path="/reports/reports3" exact component={ReportsThree} />
         <Route path="/products" exact component={Products} />
+        <Route path="/team" exact component={Team} />
       </Switch>
     </Router>
   );
