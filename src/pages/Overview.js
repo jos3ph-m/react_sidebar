@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Overview = () => {
+export const Overview = () => {
   return (
     <div className="home">
       <h1>Overview 🌐</h1>
@@ -8,4 +8,18 @@ const Overview = () => {
   );
 };
 
-export default Overview;
+export const Users = () => {
+  return (
+    <div className="home">
+      <h1>Users 🚶</h1>
+    </div>
+  );
+};
+
+export const Revenue = () => {
+  return (
+    <div className="home">
+      <h1>Revenue 💰</h1>
+    </div>
+  );
+};
